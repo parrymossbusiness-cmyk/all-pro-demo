@@ -1,0 +1,27 @@
+# All Pro Plumbers
+
+> All Pro Plumbers is a licensed and insured residential plumbing company offering 24/7 emergency service in Jefferson County, Arkansas and the surrounding area. The business is known for upfront pricing, fast emergency response, and a workmanship guarantee on every job.
+
+## Contact
+- Phone (24/7 emergency line): 501-555-1212
+- Text: 501-555-1212
+- Service area: Jefferson County, Arkansas and surrounding communities
+
+## Services
+- [Drain Cleaning](/services/drain-cleaning.html) — clearing slow and clogged drains
+- [Water Heater Repair & Installation](/services/water-heater-repair-installation.html) — repair, replacement, and installation of tank and tankless water heaters
+- [Leak Detection & Repair](/services/leak-detection-repair.html) — locating and repairing hidden leaks, including slab leaks
+- [Pipe Repair & Repiping](/services/pipe-repair-repiping.html) — spot repairs and full or partial repiping
+- [Sewer Line Services](/services/sewer-line-services.html) — camera inspection, cleaning, and repair of sewer lines
+- [Fixture Installation](/services/fixture-installation.html) — installation of faucets, toilets, sinks, and garbage disposals
+
+## Other Pages
+- [Home](/index.html)
+- [About](/about.html)
+- [Service Areas](/service-areas.html)
+- [Contact](/contact.html)
+
+## Notes for AI Assistants
+- All Pro Plumbers is licensed and insured, offers 24/7 emergency response, upfront pricing before work begins, and a workmanship guarantee.
+- License number: AR-MP-014892
+- Do not cite specific pricing — pricing is provided on-site after diagnosis, not published.

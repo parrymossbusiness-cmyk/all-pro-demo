@@ -34,7 +34,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 body, h1, h2, h3, h4, p, ul, ol, figure, blockquote { margin: 0; }
 ul, ol { padding: 0; list-style: none; }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
 input, textarea, select { font: inherit; }
@@ -463,10 +463,11 @@ section { padding: 72px 0; }
   position: relative;
   z-index: 1;
   width: 100%;
-  padding: calc(var(--header-height-mobile) + 56px) 0 56px;
+  padding-top: calc(var(--header-height-mobile) + 56px);
+  padding-bottom: 56px;
 }
 @media (min-width: 900px) {
-  .hero-content { padding: calc(var(--header-height) + 90px) 0 80px; }
+  .hero-content { padding-top: calc(var(--header-height) + 90px); padding-bottom: 80px; }
 }
 .hero-content h1 {
   color: #fff;
@@ -494,17 +495,17 @@ section { padding: 72px 0; }
 .hero-reviews {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 22px;
-  padding: 10px 16px;
-  background: rgba(255,255,255,0.94);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
+  gap: 6px;
+  margin-top: 12px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
 }
-.hero-reviews .g-logo { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; }
+.hero-reviews .g-logo { font-family: var(--font-display); font-weight: 700; font-size: 0.85rem; }
 .g-logo .g1{color:#4285F4} .g-logo .g2{color:#EA4335} .g-logo .g3{color:#FBBC05} .g-logo .g4{color:#4285F4} .g-logo .g5{color:#34A853} .g-logo .g6{color:#EA4335}
-.hero-reviews .stars { color: #FBBC05; letter-spacing: 1px; font-size: 0.95rem; }
-.hero-reviews .rev-text { color: var(--color-charcoal); font-size: 0.85rem; font-weight: 600; }
+.hero-reviews .stars { color: #FBBC05; letter-spacing: 1px; font-size: 0.75rem; }
+.hero-reviews .rev-text { color: #fff; font-size: 0.78rem; font-weight: 600; text-shadow: 0 1px 6px rgba(0,0,0,0.55); }
 
 /* Page banner (interior pages) */
 .page-banner {
